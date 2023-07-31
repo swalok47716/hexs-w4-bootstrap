@@ -1,0 +1,393 @@
+
+
+/* Starts from here */
+.index {
+	.hero-banner {
+		background: url(../../assets/images/home-header.png) no-repeat;
+		background-size: cover;
+		background-position: center center;
+		.content {
+			h3 {
+				font: normal normal normal 36px/54px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-1;
+				text-align: center;
+			}
+			h2 {
+				font: normal normal bold 64px/96px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-1;
+				text-align: center;
+			}
+			a {
+				margin-top: 4px;
+				background: $color-primary 0% 0% no-repeat padding-box;	
+				span {
+					padding: 6px 12px;
+					display: inline-block;
+					font: normal normal 500 20px/30px $font-family-primary;
+					letter-spacing: $character-spacing-primary;
+					color: $color-secondary;
+					text-align: left;
+					text-transform: uppercase;
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			background: url(../../assets/images/home-header-sm.png) no-repeat;
+			background-size: cover;
+			background-position: center center;
+			.content {
+				h3 {
+					font-size: 16px;
+					line-height: 24px;
+				}
+				h2 {
+					font-size: 24px;
+					line-height: 36px;
+				}
+			}
+			.py-74 {
+				padding-top: 144px;
+				padding-bottom: 144px;
+			}
+		}
+	}
+	.product-mindset {
+		background: $color-2 0% 0% no-repeat padding-box;
+		.content {
+			h2 {
+				font: normal normal bold 48px/72px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-1;
+			}
+			.card {
+				li {
+					img {
+						margin-bottom: 24.08px;
+						height: 83.83px;
+						width: 83.83px;
+					}
+					h3 {
+						margin-bottom: 8px;
+						font: normal normal bold 24px/36px $font-family-primary;
+						letter-spacing: $character-spacing-primary;
+						color: $color-1;
+					}
+					p {
+						font: normal normal normal 16px/24px $font-family-primary;
+						letter-spacing: $character-spacing-primary;
+						color: $color-3;
+					}
+				}
+			}
+		}
+		@media(max-width: 992px) {
+			.content {
+				.card {
+					flex-wrap: wrap;
+					.col-3 {
+						width: 50%;
+						p {
+							padding-bottom: 36.5px;
+						}
+					}
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			.content {
+				h2 {
+					font-size: 24px;
+					line-height: 36px;
+				}
+				.card {
+					.col-3 {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.classic-design {
+		.content {
+			h2 {
+				font: normal normal bold 48px/72px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-1;
+			}
+			.card {
+				li {
+					img {
+						margin-bottom: 8px;
+					}
+					h3 {
+						letter-spacing: $character-spacing-primary;
+						color: $color-primary;
+						text-align: center;
+						font: italic normal 900 48px/72px Roboto;
+					}
+				}
+			}
+		}
+		@media(max-width: 992px) {
+			.content {
+				.card {
+					flex-direction: column;
+					align-items: center;
+					gap: 24px;
+					.col-4 {
+						width: 50%;
+					}
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			.content {
+				h2 {
+					font-size: 24px;
+					line-height: 36px;
+				}
+				.card {
+					.col-4 {
+						width: 100%;
+						h3 {
+							font-size: 36px;
+							line-height: 48px;
+						}
+					}
+				}
+			}
+		}
+	}
+	.collab-design {
+		background: url(../../assets/images/index-bg.png);
+		background-size: cover;
+		background-position: center center;
+		.content {
+			h2 {
+				font: normal normal bold 48px/72px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-secondary;
+				text-align: left;
+			}
+			.card {
+				.text {
+					background: $color-secondary 0% 0% no-repeat padding-box;
+					h3 {
+						letter-spacing: $character-spacing-primary;
+						color: $color-primary;
+						text-align: center;
+						font: italic normal 900 48px/72px Roboto;
+					}
+				}
+			}
+		}
+		@media(max-width: 992px) {
+			background: url(../../assets/images/index-bg-sm.png);
+			background-size: cover;
+			background-position: center center;
+			.content {
+				.card {
+					flex-direction: column;
+					gap: 24px;
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			background: url(../../assets/images/index-bg-md.png);
+			background-size: cover;
+			background-position: center center;
+			.content {
+				h2 {
+					font-size: 24px;
+					line-height: 36px;
+				}
+				.card .text {
+					h3 {
+						font-size: 36px;
+						line-height: 48px;
+					}
+				}
+			}
+		}
+	}
+	.customer-recommendation {
+		.content {
+			h2 {
+				font: normal normal bold 48px/72px $font-family-primary;
+				letter-spacing: $character-spacing-primary;
+				color: $color-1;
+			}
+			.card {
+				li {
+					.border-shadow {
+						box-shadow: 0px 2px 6px #00000029;
+						border: 1px solid #DEE2E6;
+						border-radius: 4px;
+						height: 100%;
+						img {
+							width: 100%;
+						}
+						.text {
+							padding: 16px;
+							.name {
+								padding-bottom: 8px;
+								font: normal normal 500 16px/24px $font-family-primary;
+								letter-spacing: $character-spacing-primary;
+								color: $color-3;
+								text-align: left;
+							}
+							.description {
+								padding-bottom: 72px;
+								font: normal normal normal 16px/24px $font-family-primary;
+								letter-spacing: $character-spacing-primary;
+								color: $color-3;
+								text-align: left;
+							}
+							.visited-date {
+								font: normal normal normal 14px/21px $font-family-primary;
+								letter-spacing: $character-spacing-primary;
+								text-align: left;
+								color: $color-4;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media(max-width: 992px) {
+			.content {
+				.card {
+					flex-wrap: wrap;
+					li {
+						margin-bottom: 24px;
+						width: 50%;
+					}
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			.content {
+				h2 {
+					font-size: 24px;
+					line-height: 36px;
+				}
+				.card {
+					li {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+	.contact-us {
+		background: $color-2 0% 0% no-repeat padding-box;
+		.content {
+			div {
+				display: flex;
+				flex-direction: column;
+				h2 {
+					margin-bottom: 48px;
+					font: normal normal bold 48px/72px $font-family-primary;
+					letter-spacing: $character-spacing-primary;
+					color: $color-1;
+					text-align: center;
+				}
+				h3 {
+					margin-bottom: 24px;
+					font: normal normal normal 20px/30px $font-family-primary;
+					letter-spacing: $character-spacing-primary;
+					color: $color-3;
+				}
+				.form {
+					p {
+						margin-bottom: 8px;
+						font: normal normal normal 16px/24px $font-family-primary;
+						letter-spacing: $character-spacing-primary;
+						color: $color-3;
+					}
+					.name>input, .phone-number>input, .email-address>input {
+						margin-bottom: 16px;
+						padding: 4px 0 0 12px;
+						width: 100%;
+						height: 36px;
+						background: rgba(0, 0, 0, 0);
+						border: 1px solid black;
+						font-size: 16px;
+					}
+					.feedback>textarea {
+						margin-bottom: 16px;
+						padding: 6px 0 0 12px;
+						width: 100%;
+						height: 136px;
+						background: rgba(0, 0, 0, 0);
+						border: 1px solid black;
+						font-size: 16px;
+						resize: none;
+					}
+					input::placeholder, textarea::placeholder {
+						font: normal normal normal 16px/24px $font-family-primary;
+						letter-spacing: $character-spacing-primary;
+						color: $color-4;
+					}
+					.terms-conditions-checkbox {
+						margin-bottom: 48px;
+						display: flex;
+						align-items: center;
+						input {
+							width: 16px;
+							height: 16px;
+						}
+						label {
+							font: normal normal normal 16px/24px $font-family-primary;
+							letter-spacing: $character-spacing-primary;
+							color: $color-3;
+						}
+					}
+				}
+				.submit-btn {
+					width: 100%;
+					padding-top: 16px;
+					padding-bottom: 16px;
+					border: none;
+					background: $color-primary 0% 0% no-repeat padding-box;
+					font: normal normal bold 16px/24px $font-family-primary;
+					letter-spacing: $character-spacing-primary;
+					color: $color-secondary;
+				}
+			}
+		}
+		@media(max-width: 992px) {
+			.content {
+				.col-6 {
+					width: 83.333%;
+					h2 {
+						margin-bottom: 24px;
+					}
+					.submit-btn {
+						width: 60%;
+						align-self: center;
+					}
+				}
+			}
+		}
+		@media(max-width: 768px) {
+			.content {
+				.col-6 {
+					h2 {
+						font-size: 24px;
+						line-height: 36px;
+					}
+					h3 {
+						font-size: 16px;
+						line-height: 24px;
+					}
+					.submit-btn {
+						width: 100%;
+					}
+				}
+			}
+		}
+	}
+}

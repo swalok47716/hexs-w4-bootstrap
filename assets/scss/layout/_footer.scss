@@ -1,0 +1,124 @@
+.footer {
+	background: $color-primary 0% 0% no-repeat padding-box;
+	.content {
+		.above-divider {
+			margin-bottom: 32px;
+			display: flex;
+			justify-content: space-between;
+			.navbar--contact-info {
+				.navbar {
+					margin-bottom: 24px;
+					ul {
+						height: 48px;
+						display: flex;
+						align-items: center;
+						gap: 48px;
+						a {
+							font: normal normal normal 16px/24px $font-family-primary;
+							letter-spacing: $character-spacing-primary;
+							color: $color-secondary;
+						}
+					}
+				}
+				.contact-info {
+					.phone-number, .email-address {
+						display: flex;
+						align-items: center;
+						gap: 22px;
+						span {
+							font-size: 36px;
+						}
+						p {
+							font: normal normal normal 36px/54px $font-family-primary;
+							letter-spacing: $character-spacing-primary;
+							color: $color-secondary;
+						}
+					}
+				}
+			}
+			.social-media {
+				ul {
+					display: flex;
+					gap: 32px;
+					img {
+						width: 48px;
+					}
+				}
+			}
+		}
+		.divider {
+			margin-bottom: 32px;
+			height: 1px;
+			background: white;
+		}
+		.claim-info {
+			display: flex;
+			justify-content: space-between;
+			p {
+				font: normal normal normal 16px/24px Roboto;
+				letter-spacing: $character-spacing-primary;
+				color: $color-secondary;
+			}
+			ul {
+				display: flex;
+				gap: 48px;
+				a {
+					font: normal normal normal 14px/21px $font-family-primary;
+					letter-spacing: $character-spacing-primary;
+					color: $color-secondary;
+				}
+			}
+		}
+	}
+	@media(max-width: 768px) {
+		.content {
+			.above-divider {
+				.navbar--contact-info {
+					.navbar {
+						display: none;
+					}
+					.contact-info {
+						.phone-number, .email-address {
+							span {
+								font-size: 18px;
+							}
+							p {
+								font-size: 16px;
+								line-height: 24px;
+							}
+						}
+					}
+				}
+				.social-media {
+					ul {
+						img {
+							width: 24px;
+						}
+					}
+				}
+			}
+			.claim-info {
+				flex-wrap: wrap;
+				p {
+					width: 100%;
+				}
+			}
+		}
+		.pt-12 {
+			padding-top: 24px;
+		}
+		.pb-8 {
+			padding-bottom: 24px;
+		}
+	}
+	@media(max-width: 375px) {
+		.content {
+			.above-divider {
+				flex-wrap: wrap-reverse;
+				.navbar--contact-info {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
