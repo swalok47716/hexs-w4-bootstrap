@@ -55,7 +55,7 @@
 			display: flex;
 			justify-content: space-between;
 			p {
-				font: normal normal normal 16px/24px Roboto;
+				font: normal normal normal 16px/24px $font-family-secondary;
 				letter-spacing: $character-spacing-primary;
 				color: $color-secondary;
 			}

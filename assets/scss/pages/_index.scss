@@ -125,7 +125,7 @@
 						letter-spacing: $character-spacing-primary;
 						color: $color-primary;
 						text-align: center;
-						font: italic normal 900 48px/72px Roboto;
+						font: italic normal 900 48px/72px $font-family-secondary;
 					}
 				}
 			}
@@ -178,7 +178,7 @@
 						letter-spacing: $character-spacing-primary;
 						color: $color-primary;
 						text-align: center;
-						font: italic normal 900 48px/72px Roboto;
+						font: italic normal 900 48px/72px $font-family-secondary;
 					}
 				}
 			}
