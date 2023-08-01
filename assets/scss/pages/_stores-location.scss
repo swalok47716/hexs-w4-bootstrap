@@ -3,6 +3,12 @@
         border-left: 8px solid $color-primary;
         font: normal normal bold 48px/72px $font-family-primary;
     }
+    @media(max-width: 768px) {
+        h1 {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
     .area-selector {
         label {
             font: normal normal normal 24px/36px $font-family-primary;
@@ -12,6 +18,20 @@
             width: 304px;
             font: normal normal normal 18px/26px $font-family-primary;
             color: $color-6;
+        }
+    }
+    @media(max-width: 768px) {
+        .area-selector {
+            div {
+                gap: 8px;
+            }
+            label {
+                font-size: 16px;
+                line-height: 24px;
+            }
+            select {
+                width: 276px;
+            }
         }
     }
     .items-in-grid {
