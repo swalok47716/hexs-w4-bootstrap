@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./layout/meta'); -%>
+    <title>門市據點 - 眼鏡官網</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <main class="store-page">
+      <div class="headline">
+        <div class="container pt-24 pb-8">
+          <h1 class="pl-4 text-nowrap">門市據點</h1>
+        </div>
+      </div>
+      <div class="store-selector mb-10">
+        <div class="container d-flex g-4">
+          <label for="store-select" class="text-nowrap">選擇分店</label>
+          <select name="stores" id="store-select">
+            <option value="taipei-zhongshang">台北中山旗艦店</option>
+            <option value="taipei-lvyuan">台北綠園店</option>
+            <option value="taizhong-qingshui">台中清水旗艦店</option>
+            <option value="gaoxiong-zhongzheng">高雄中正形象店</option>
+            <option value="gaoxiong-mengshidai">高雄夢時代店</option>
+          </select>
+        </div>
+      </div>
+      <div class="items-in-grid mb-8">
+        <div class="container">
+          <ul class="grid row d-flex flex-wrap align-items-center">
+            <li class="item col-5 px-3 mb-12">
+              <img src="../assets/images/storepage-1.png" alt="">
+              <div class="text-content">
+                <h2 class="item-name px-6 py-2 border">台北中山旗艦店</h2>
+                <div class="item-info px-6 py-4 border">
+                  <p class="item-phone-number mb-2 d-flex g-3">
+                    <span class="icon material-symbols-rounded">phone</span>
+                    <span class="font">電話：(02)000-1234</span>
+                  </p>
+                  <p class="item-opening-time mb-2 d-flex g-3">
+                    <span class="icon material-symbols-rounded">schedule</span>
+                    <span class="font">營業時間：10:00-21:00</span>
+                  </p>
+                  <p class="item-location d-flex g-3">
+                    <span class="icon material-symbols-rounded">location_on</span>
+                    <span class="font">地址：台北市中山區南京東路25巷2-1號</span>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li class="item-map col-7 px-3 mb-12">
+              <div></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>
