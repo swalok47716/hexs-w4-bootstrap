@@ -1,0 +1,33 @@
+.blog-sub-navbar {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: $color-1;
+    .options {
+        a {
+            font: normal normal bold 20px/30px $font-family-primary;
+            color: $color-secondary;
+        }
+    }
+    .search-btn {
+        span {
+            font-size: 30px;
+            color: $color-secondary;
+        }
+    }
+    @include phone() {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        .options {
+            gap: 0px;
+            flex-grow: 1;
+            justify-content: space-between;
+            a {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+        .search-btn {
+            display: none;
+        }
+    }
+}
