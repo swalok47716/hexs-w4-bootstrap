@@ -33,7 +33,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			background: url(../../assets/images/home-header-sm.png) no-repeat;
 			background-size: cover;
 			background-position: center center;
@@ -82,7 +82,7 @@
 				}
 			}
 		}
-		@media(max-width: 992px) {
+		@include pad() {
 			.content {
 				.card {
 					flex-wrap: wrap;
@@ -95,7 +95,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			.content {
 				h2 {
 					font-size: 24px;
@@ -130,7 +130,7 @@
 				}
 			}
 		}
-		@media(max-width: 992px) {
+		@include pad() {
 			.content {
 				.card {
 					flex-direction: column;
@@ -142,7 +142,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			.content {
 				h2 {
 					font-size: 24px;
@@ -183,7 +183,7 @@
 				}
 			}
 		}
-		@media(max-width: 992px) {
+		@include pad() {
 			background: url(../../assets/images/index-bg-sm.png);
 			background-size: cover;
 			background-position: center center;
@@ -194,7 +194,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			background: url(../../assets/images/index-bg-md.png);
 			background-size: cover;
 			background-position: center center;
@@ -256,7 +256,7 @@
 				}
 			}
 		}
-		@media(max-width: 992px) {
+		@include pad() {
 			.content {
 				.card {
 					flex-wrap: wrap;
@@ -267,7 +267,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			.content {
 				h2 {
 					font-size: 24px;
@@ -358,7 +358,7 @@
 				}
 			}
 		}
-		@media(max-width: 992px) {
+		@include pad() {
 			.content {
 				.col-6 {
 					width: 83.333%;
@@ -372,7 +372,7 @@
 				}
 			}
 		}
-		@media(max-width: 768px) {
+		@include phone() {
 			.content {
 				.col-6 {
 					h2 {

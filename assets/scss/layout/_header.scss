@@ -24,7 +24,7 @@
 			}
 		}
 	}
-	@media(max-width: 768px) {
+	@include phone() {
 		.container {
 			padding: 0 0;
 			max-width: 100%;

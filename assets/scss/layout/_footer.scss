@@ -71,7 +71,7 @@
 			}
 		}
 	}
-	@media(max-width: 768px) {
+	@include phone() {
 		.content {
 			.above-divider {
 				.navbar--contact-info {

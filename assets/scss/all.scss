@@ -2,10 +2,12 @@
 @import 'variable';
 
 @import 'base';
+@import 'mixin';
 
 @import 'layout/header';
 @import 'layout/footer';
 @import 'layout/glasses-frame-series-sub-navbar';
+@import 'layout/page-selector';
 
 @import 'pages/index';
 @import 'pages/glasses-frame-series-optical';
@@ -13,3 +15,5 @@
 @import 'pages/stores-location';
 @import 'pages/store-page';
 @import 'pages/faq';
+
+@import 'test';
