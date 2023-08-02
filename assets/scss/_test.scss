@@ -1,10 +1,8 @@
 .test {
-    h1 {
-        font-size: 50px;
+    ul {
+        width: 500px;
     }
-    @include pad() {
-        h1 {
-            font-size: 100px;
-        }
+    .third {
+        justify-self: flex-end;
     }
 }
