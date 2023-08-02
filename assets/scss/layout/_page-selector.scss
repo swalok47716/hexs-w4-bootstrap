@@ -47,6 +47,18 @@
         }
     }
     @include phone() {
-        margin-bottom: 64px;
+        .page-selector-bar {
+            margin-bottom: 64px;
+            .prev-page-btn .font, .next-page-btn .font {
+                padding: 12px 13px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            .page-number-btn .font {
+                padding: 12px 15px;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
     }
 }
