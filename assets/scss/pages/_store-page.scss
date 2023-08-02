@@ -103,11 +103,6 @@
         .item {
             width: 100%;
             flex-direction: column;
-            h2, .font {
-                white-space: nowrap;
-                overflow: hidden;
-                text-overflow: ellipsis;
-            }
             img {
                 width: 100%;
                 padding-right: 0px;
