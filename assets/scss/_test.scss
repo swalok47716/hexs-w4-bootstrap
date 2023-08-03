@@ -1,8 +1,15 @@
 .test {
-    ul {
-        width: 500px;
-    }
-    .third {
-        justify-self: flex-end;
+    .sub-navbar {
+        height: 500px;
+        li {
+            a {
+                font-size: 48px;
+                color: black;
+                transition: background-color 2s;
+            }
+            a:hover {
+                background-color: red;
+            }
+        }
     }
 }

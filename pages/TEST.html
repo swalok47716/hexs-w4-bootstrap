@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <%- include('./layout/meta'); -%>
-    <title>Document</title>
+        <title>Document</title>
 </head>
+
 <body>
     <%- include('./layout/header'); -%>
     <main class="test">
-        <ul class="d-flex">
-            <li class="first">1</li>
-            <li class="second">2</li>
-            <li class="third">3</li>
-        </ul>
+        <div class="container">
+            <ul class="sub-navbar d-flex justify-content-center align-items-center g-4">
+                <li><a href="">First</a></li>
+                <li><a href="">Second</a></li>
+                <li><a href="">Third</a></li>
+                <li><a href="">Fourth</a></li>
+            </ul>
+        </div>
     </main>
     <%- include('./layout/footer'); -%>
     <script type="module" src="../main.js"></script>
 </body>
+
 </html>
