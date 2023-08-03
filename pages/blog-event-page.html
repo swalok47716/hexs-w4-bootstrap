@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./layout/meta'); -%>
+    <title>部落格 - 眼鏡官網</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <main class="blog-event-page">
+      <%- include('./layout/blog-sub-navbar'); -%>
+        <div class="container">
+          <div class="row d-flex flex-wrap pt-6 pb-20">
+            <div class="content col-8 px-3">
+              <div class="breadcrumbs mb-2">
+                <a href="./index.html" class="d-inline-block">首頁</a>
+                <a href="./blog.html" class="d-inline-block">部落格</a>
+                <a href="#" class="d-inline-block">特別企劃</a>
+                <a href="./blog-event-page.html" class="d-inline-block current-site">情人特別企劃</a>
+              </div>
+              <ul class="event-tags d-flex mb-2">
+                <li><a href="#" class="d-inline-block">#special</a></li>
+                <li><a href="#" class="d-inline-block">#event</a></li>
+              </ul>
+              <h1 class="event-title-in-mandarin">情人特別企劃</h1>
+              <h2 class="event-title-in-english mb-4">2020 Valentine’s Special</h2>
+              <div class="event-cards mb-10">
+                <figure class="card">
+                  <img src="../assets/images/blogpage-1.png" alt="" class="mb-2">
+                  <figcaption>一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。<br>本次拍攝的鏡框款式與 NEEDS CLASSIC
+                    聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！</figcaption>
+                </figure>
+              </div>
+            </div>
+            <div class="tags-banner col-4 px-3">
+              <h2 class="tags-title d-flex align-items-center"><span class="material-symbols-rounded mr-3">label</span>TAGS</h2>
+              <p class="all-tags">
+                <span class="mr-6"><a href="" class="inline-block">#special</a></span>
+                <span class="mr-6"><a href="" class="inline-block">#sale</a></span><br>
+                <span class="mr-6"><a href="" class="inline-block">#new_item</a></span>
+                <span class="mr-6"><a href="" class="inline-block">#interview</a></span><br>
+                <span class="mr-6"><a href="" class="inline-block">#trivia</a></span>
+                <span class="mr-6"><a href="" class="inline-block">#news</a></span><br>
+                <span class="mr-6"><a href="" class="inline-block">#event</a></span>
+              </p>
+            </div>
+            <div class="blog-footer col-8 px-3">
+              <div class="social-media mb-4 d-flex g-4">
+                <p>Share</p>
+                <a href=""><img src="../assets/images/logo-facebook.png" alt=""></a>
+                <a href=""><img src="../assets/images/logo-instagram.png" alt=""></a>
+              </div>
+              <div class="divider mb-6"></div>
+              <div class="page-selector d-flex justify-content-space-between">
+                <a href="#" class="prev-page-btn d-flex align-items-center g-3">
+                  <span class="material-symbols-rounded icon">arrow_back</span>
+                  <span class="font">上一篇：街頭潮人訪問 1</span>
+                </a>
+                <a href="#" class="next-page-btn d-flex align-items-center g-3">
+                  <span class="font">下一篇：街頭潮人訪問 2</span>
+                  <span class="material-symbols-rounded icon">arrow_forward</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <%- include('./layout/footer'); -%>
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>

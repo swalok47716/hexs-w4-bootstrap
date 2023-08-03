@@ -1,0 +1,131 @@
+.blog-event-page {
+    @include phone() {
+        .pb-20 {
+            padding-bottom: 24px;
+        }
+    }
+    .content {
+        .breadcrumbs {
+            a {
+                font: normal normal normal 16px/24px $font-family-primary;
+                color: $color-3;
+            }
+            a:not(.current-site):after {
+                content: '\00a0/\00a0';
+            }
+            .current-site {
+                color: $color-primary;
+            }
+        }
+        .event-tags {
+            gap: 16px;
+            a {
+                font: normal normal bold 24px/36px $font-family-secondary;
+                color: $color-primary;
+            }
+        }
+        .event-title-in-mandarin {
+            font: normal normal normal 48px/72px $font-family-primary;
+            color: $color-3;
+        }
+        .event-title-in-english {
+            font: normal normal 700 24px/36px $font-family-secondary;
+            color: $color-3;
+        }
+        .event-cards {
+            .card {
+                figcaption {
+                    font: normal normal normal 16px/24px $font-family-primary;
+                    color: $color-6;
+                }
+            }
+        }
+    }
+    @include phone() {
+        .content {
+            width: 100%;
+            .event-tags {
+                a {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+            .event-title-in-mandarin {
+                font-size: 24px;
+                line-height: 36px;
+            }
+            .event-title-in-english {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+    .tags-banner {
+        .tags-title {
+            font: normal normal bold 32px/48px $font-family-secondary; 
+            color: $color-primary;
+            span {
+                font-size: 48px;
+            }
+        }
+        .all-tags {
+            a {
+                font: normal normal bold 24px/36px $font-family-secondary;
+                color: $color-primary;
+            }
+        }
+    }
+    @include pad() {
+        .tags-banner {
+            .tags-title {
+                font-size: 16px;
+                line-height: 24px;
+                span {
+                    font-size: 24px;
+                }
+            }
+            .all-tags {
+                a {
+                    font-size: 16px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+    @include phone() {
+        .tags-banner {
+            display: none;
+        }
+    }
+    .blog-footer {
+        .social-media {
+            p {
+                font: normal normal bold 16px/24px $font-family-secondary;
+                color: $color-3;
+            }
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+        .divider {
+            height: 2px;
+            background-color: $color-4;
+        }
+        .page-selector {
+            .icon {
+                font-size: 24px;
+                color: $color-3;
+            }
+            .font {
+                font: normal normal normal 16px/24px $font-family-primary;
+                color: $color-3;
+            }
+        }
+    }
+    @include phone() {
+        .blog-footer {
+            display: none;
+        }
+    }
+}
