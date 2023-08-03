@@ -33,7 +33,7 @@
     }
     .items-in-grid {
         .genre-title-english {
-            font: normal normal 700 42px/63px $font-family-secondary;
+            font: normal normal 500 42px/63px $font-family-secondary;
             letter-spacing: $character-spacing-primary;
             color: $color-3
         }
@@ -49,7 +49,7 @@
                 color: $color-3
             }
             .item-price {
-                font: normal normal 700 24px/36px $font-family-secondary;
+                font: normal normal 500 24px/36px $font-family-secondary;
                 letter-spacing: $character-spacing-primary;
                 color: $color-primary;
             }
